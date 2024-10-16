@@ -15,14 +15,14 @@ https://www.kaggle.com/competitions/blood-vessel-segmentation/overview
 
 Codebase for SenNet + HOA - Hacking the Human Vasculature in 3D competition (4th Place Solution).
 
-The detailed description is here: https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475052 
+The detailed description is here: https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475052
 
-## Download data 
+## Download data
 ```bash
 kaggle competitions download -c blood-vessel-segmentation
 ```
 
-## Download additional data from the 
+## Download additional data from the
 ```
 http://human-organ-atlas.esrf.eu
 ```
@@ -32,7 +32,7 @@ If you want to skip the initial training without pseudo, you can download the im
 kaggle datasets download -d igorkrashenyi/50um-ladaf-2020-31-kidney-pag-0-01-0-02-jp2
 ```
 
-## Setting up the environment 
+## Setting up the environment
 
 ```bash
 # clone project
@@ -71,7 +71,7 @@ sh ./train_pseudo_3d.sh
 # train on 2d model with pseudo
 sh ./train_pseudo_v2.sh
 
-# Note: if you want to train the best setup which was not submitted to the cometition run 
+# Note: if you want to train the best setup which was not submitted to the cometition run
 sh ./train_pseudo.sh
 
 ```
